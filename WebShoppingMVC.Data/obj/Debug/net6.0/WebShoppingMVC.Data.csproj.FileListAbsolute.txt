@@ -1,0 +1,17 @@
+C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC.Data\bin\Debug\net6.0\WebShoppingMVC.Data.deps.json
+C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC.Data\bin\Debug\net6.0\WebShoppingMVC.Data.dll
+C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC.Data\bin\Debug\net6.0\WebShoppingMVC.Data.pdb
+C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC.Data\bin\Debug\net6.0\WebShoppingMVC.Domain.dll
+C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC.Data\bin\Debug\net6.0\WebShoppingMVC.Domain.pdb
+C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC.Data\obj\Debug\net6.0\WebShoppingMVC.Data.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC.Data\obj\Debug\net6.0\WebShoppingMVC.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC.Data\obj\Debug\net6.0\WebShoppingMVC.Data.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC.Data\obj\Debug\net6.0\WebShoppingMVC.Data.AssemblyInfo.cs
+C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC.Data\obj\Debug\net6.0\WebShoppingMVC.Data.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC.Data\obj\Debug\net6.0\WebShoppingMVC.Data.csproj.CopyComplete
+C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC.Data\obj\Debug\net6.0\WebShoppingMVC.Data.dll
+C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC.Data\obj\Debug\net6.0\refint\WebShoppingMVC.Data.dll
+C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC.Data\obj\Debug\net6.0\WebShoppingMVC.Data.pdb
+C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC.Data\obj\Debug\net6.0\ref\WebShoppingMVC.Data.dll
+C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC.Data\bin\Debug\net6.0\WebShoppingMVC.Data.runtimeconfig.json
+C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC.Data\obj\Debug\net6.0\WebShoppingMVC.Data.genruntimeconfig.cache
