@@ -291,3 +291,7 @@ C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC\bin\Debug\net6.0\runt
 C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC\bin\Debug\net6.0\WebShoppingMVC.Contracts.dll
+C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC\bin\Debug\net6.0\WebShoppingMVC.Services.dll
+C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC\bin\Debug\net6.0\WebShoppingMVC.Services.pdb
+C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC\bin\Debug\net6.0\WebShoppingMVC.Contracts.pdb

@@ -12,7 +12,8 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.5",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.13",
-          "WebShoppingMVC.Data": "1.0.0"
+          "WebShoppingMVC.Data": "1.0.0",
+          "WebShoppingMVC.Services": "1.0.0"
         },
         "runtime": {
           "WebShoppingMVC.dll": {}
@@ -2420,6 +2421,11 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
+      "WebShoppingMVC.Contracts/1.0.0": {
+        "runtime": {
+          "WebShoppingMVC.Contracts.dll": {}
+        }
+      },
       "WebShoppingMVC.Data/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.5",
@@ -2433,6 +2439,16 @@
       "WebShoppingMVC.Domain/1.0.0": {
         "runtime": {
           "WebShoppingMVC.Domain.dll": {}
+        }
+      },
+      "WebShoppingMVC.Services/1.0.0": {
+        "dependencies": {
+          "WebShoppingMVC.Contracts": "1.0.0",
+          "WebShoppingMVC.Data": "1.0.0",
+          "WebShoppingMVC.Domain": "1.0.0"
+        },
+        "runtime": {
+          "WebShoppingMVC.Services.dll": {}
         }
       }
     }
@@ -3717,12 +3733,22 @@
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
+    "WebShoppingMVC.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "WebShoppingMVC.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "WebShoppingMVC.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WebShoppingMVC.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

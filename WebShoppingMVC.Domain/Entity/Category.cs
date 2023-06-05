@@ -8,6 +8,6 @@ namespace WebShoppingMVC.Domain.Entity
 {
 	public class Category : BaseEntity
 	{
-		public string Code { get; set; }
+		public string? Code { get; set; }
 	}
 }

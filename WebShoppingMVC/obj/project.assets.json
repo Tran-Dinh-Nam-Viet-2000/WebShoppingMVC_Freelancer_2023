@@ -3695,6 +3695,16 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "WebShoppingMVC.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/WebShoppingMVC.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebShoppingMVC.Contracts.dll": {}
+        }
+      },
       "WebShoppingMVC.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -3718,6 +3728,21 @@
         },
         "runtime": {
           "bin/placeholder/WebShoppingMVC.Domain.dll": {}
+        }
+      },
+      "WebShoppingMVC.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "WebShoppingMVC.Contracts": "1.0.0",
+          "WebShoppingMVC.Data": "1.0.0",
+          "WebShoppingMVC.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WebShoppingMVC.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebShoppingMVC.Services.dll": {}
         }
       }
     }
@@ -10525,6 +10550,11 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "WebShoppingMVC.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../WebShoppingMVC.Contracts/WebShoppingMVC.Contracts.csproj",
+      "msbuildProject": "../WebShoppingMVC.Contracts/WebShoppingMVC.Contracts.csproj"
+    },
     "WebShoppingMVC.Data/1.0.0": {
       "type": "project",
       "path": "../WebShoppingMVC.Data/WebShoppingMVC.Data.csproj",
@@ -10534,6 +10564,11 @@
       "type": "project",
       "path": "../WebShoppingMVC.Domain/WebShoppingMVC.Domain.csproj",
       "msbuildProject": "../WebShoppingMVC.Domain/WebShoppingMVC.Domain.csproj"
+    },
+    "WebShoppingMVC.Services/1.0.0": {
+      "type": "project",
+      "path": "../WebShoppingMVC.Services/WebShoppingMVC.Services.csproj",
+      "msbuildProject": "../WebShoppingMVC.Services/WebShoppingMVC.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -10542,7 +10577,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.5",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.13",
-      "WebShoppingMVC.Data >= 1.0.0"
+      "WebShoppingMVC.Data >= 1.0.0",
+      "WebShoppingMVC.Services >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -10581,6 +10617,9 @@
           "projectReferences": {
             "C:\\Users\\Admin\\source\\repos\\Freelancer_2023\\WebShoppingMVC.Data\\WebShoppingMVC.Data.csproj": {
               "projectPath": "C:\\Users\\Admin\\source\\repos\\Freelancer_2023\\WebShoppingMVC.Data\\WebShoppingMVC.Data.csproj"
+            },
+            "C:\\Users\\Admin\\source\\repos\\Freelancer_2023\\WebShoppingMVC.Services\\WebShoppingMVC.Services.csproj": {
+              "projectPath": "C:\\Users\\Admin\\source\\repos\\Freelancer_2023\\WebShoppingMVC.Services\\WebShoppingMVC.Services.csproj"
             }
           }
         }

@@ -1,0 +1,12 @@
+C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC.Contracts\bin\Debug\net6.0\WebShoppingMVC.Contracts.deps.json
+C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC.Contracts\bin\Debug\net6.0\WebShoppingMVC.Contracts.dll
+C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC.Contracts\bin\Debug\net6.0\WebShoppingMVC.Contracts.pdb
+C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC.Contracts\obj\Debug\net6.0\WebShoppingMVC.Contracts.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC.Contracts\obj\Debug\net6.0\WebShoppingMVC.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC.Contracts\obj\Debug\net6.0\WebShoppingMVC.Contracts.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC.Contracts\obj\Debug\net6.0\WebShoppingMVC.Contracts.AssemblyInfo.cs
+C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC.Contracts\obj\Debug\net6.0\WebShoppingMVC.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC.Contracts\obj\Debug\net6.0\WebShoppingMVC.Contracts.dll
+C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC.Contracts\obj\Debug\net6.0\refint\WebShoppingMVC.Contracts.dll
+C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC.Contracts\obj\Debug\net6.0\WebShoppingMVC.Contracts.pdb
+C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC.Contracts\obj\Debug\net6.0\ref\WebShoppingMVC.Contracts.dll

@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\WebShoppingMVC.Contracts\WebShoppingMVC.Contracts.csproj" />
+    <ProjectReference Include="..\WebShoppingMVC.Data\WebShoppingMVC.Data.csproj" />
+    <ProjectReference Include="..\WebShoppingMVC.Domain\WebShoppingMVC.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
