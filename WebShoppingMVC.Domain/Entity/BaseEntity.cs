@@ -14,8 +14,8 @@ namespace WebShoppingMVC.Domain.Entity
 		[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
 		[Required]
 		public int Id { get; set; }
-		public string? Name { get; set; }
-		public DateTime? CreatedDate { get; set; }
+        public string Name { get; set; }
+        public DateTime? CreatedDate { get; set; }
 		public DateTime? UpdatedDate { get; set; }
 		public bool? IsActive { get; set; }
 	}

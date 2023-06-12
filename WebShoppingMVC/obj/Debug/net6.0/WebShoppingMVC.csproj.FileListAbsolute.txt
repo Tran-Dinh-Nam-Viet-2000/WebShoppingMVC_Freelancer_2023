@@ -295,3 +295,4 @@ C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC\bin\Debug\net6.0\WebS
 C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC\bin\Debug\net6.0\WebShoppingMVC.Services.dll
 C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC\bin\Debug\net6.0\WebShoppingMVC.Services.pdb
 C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC\bin\Debug\net6.0\WebShoppingMVC.Contracts.pdb
+C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC\bin\Debug\net6.0\libman.json

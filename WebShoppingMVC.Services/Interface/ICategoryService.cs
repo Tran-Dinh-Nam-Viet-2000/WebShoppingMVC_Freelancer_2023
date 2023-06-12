@@ -11,9 +11,9 @@ namespace WebShoppingMVC.Services.Interface
     public interface ICategoryService
     {
         Task<IEnumerable<Category>> GetAll();
-        Task<CategoryDto> Get(int id);
-        Task<Category> Create(CategoryDto categoryDto);
-        Task<Category> Update(int id, CategoryDto categoryDto);
+        Task<Category> Get(int id);
+        Task<Category> Create(CategoryDto category);
+        Task<Category> Update(CategoryDto categoryDto);
         void Delete(int id);
     }
 }

@@ -1,32 +1,28 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using WebShoppingMVC.Data.Context;
+using WebShoppingMVC.Data.Repository.Interface;
+using WebShoppingMVC.Domain.Entity;
+using WebShoppingMVC.Domain.ModelList;
 using WebShoppingMVC.Models;
+using WebShoppingMVC.Services;
+using WebShoppingMVC.Services.Interface;
 
 namespace WebShoppingMVC.Controllers
 {
 	public class HomeController : Controller
 	{
-		private readonly ILogger<HomeController> _logger;
+        private readonly ApplicationDbContext _dbContext;
+        AllList allList = new AllList();
+        public HomeController(ApplicationDbContext dbContext)
+        {
+            _dbContext = dbContext;
+        }
 
-		public HomeController(ILogger<HomeController> logger)
+        public async Task<ActionResult> Index()
 		{
-			_logger = logger;
-		}
-
-		public IActionResult Index()
-		{
-			return View();
-		}
-
-		public IActionResult Privacy()
-		{
-			return View();
-		}
-
-		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-		public IActionResult Error()
-		{
-			return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            allList.ListProduct = _dbContext.Products.Where(n => n.CategoryId == 23).ToList();
+			return View(allList);
 		}
 	}
 }

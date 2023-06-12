@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
@@ -11,10 +13,11 @@ namespace WebShoppingMVC.Domain.Entity
 	{
 		public int Price { get; set; }
 		public string Description { get; set; }
-		public string Image { get; set; }
-		public int CategoryId { get; set; }
-
-		[ForeignKey("CategoryId")]
+		public string? Image { get; set; }
+        public int CategoryId { get; set; }
+		[NotMapped]
+		public IFormFile File { get; set; }
+        [ForeignKey("CategoryId")]
 		public Category Category { get; set; }
 	}
 }

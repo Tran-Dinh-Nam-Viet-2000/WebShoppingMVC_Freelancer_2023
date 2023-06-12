@@ -16,20 +16,40 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Admin\source\repos\Freelancer_2023\WebShoppingMVC
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Admin/source/repos/Freelancer_2023/WebShoppingMVC/Areas/Area/Views/Category/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXJlYVxWaWV3c1xDYXRlZ29yeVxDcmVhdGUuY3NodG1s
+[C:/Users/Admin/source/repos/Freelancer_2023/WebShoppingMVC/Areas/Area/Views/Category_Admin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXJlYVxWaWV3c1xDYXRlZ29yeV9BZG1pblxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/Freelancer_2023/WebShoppingMVC/Areas/Area/Views/Category/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXJlYVxWaWV3c1xDYXRlZ29yeVxJbmRleC5jc2h0bWw=
+[C:/Users/Admin/source/repos/Freelancer_2023/WebShoppingMVC/Areas/Area/Views/Category_Admin/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXJlYVxWaWV3c1xDYXRlZ29yeV9BZG1pblxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/Freelancer_2023/WebShoppingMVC/Areas/Area/Views/Category_Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXJlYVxWaWV3c1xDYXRlZ29yeV9BZG1pblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/Freelancer_2023/WebShoppingMVC/Areas/Area/Views/Category_Admin/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXJlYVxWaWV3c1xDYXRlZ29yeV9BZG1pblxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Admin/source/repos/Freelancer_2023/WebShoppingMVC/Areas/Area/Views/HomeAdmin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXJlYVxWaWV3c1xIb21lQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/Freelancer_2023/WebShoppingMVC/Areas/Area/Views/Product/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXJlYVxWaWV3c1xQcm9kdWN0XEluZGV4LmNzaHRtbA==
+[C:/Users/Admin/source/repos/Freelancer_2023/WebShoppingMVC/Areas/Area/Views/Product_Admin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXJlYVxWaWV3c1xQcm9kdWN0X0FkbWluXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/Freelancer_2023/WebShoppingMVC/Areas/Area/Views/Product_Admin/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXJlYVxWaWV3c1xQcm9kdWN0X0FkbWluXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/Freelancer_2023/WebShoppingMVC/Areas/Area/Views/Product_Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXJlYVxWaWV3c1xQcm9kdWN0X0FkbWluXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/Freelancer_2023/WebShoppingMVC/Areas/Area/Views/Product_Admin/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXJlYVxWaWV3c1xQcm9kdWN0X0FkbWluXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Admin/source/repos/Freelancer_2023/WebShoppingMVC/Areas/Area/Views/Shared/_Admin_Layout.cshtml]
@@ -38,6 +58,22 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Admin/source/repos/Freelancer_2023/WebShoppingMVC/Views/Authentication/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRpb25cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/Freelancer_2023/WebShoppingMVC/Views/Category/Accessory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQWNjZXNzb3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/Freelancer_2023/WebShoppingMVC/Views/Category/Pants.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcUGFudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/Freelancer_2023/WebShoppingMVC/Views/Category/Shirt.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcU2hpcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/Freelancer_2023/WebShoppingMVC/Views/Category/Shoes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcU2hvZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Admin/source/repos/Freelancer_2023/WebShoppingMVC/Views/Home/Index.cshtml]
@@ -50,6 +86,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Admin/source/repos/Freelancer_2023/WebShoppingMVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/Freelancer_2023/WebShoppingMVC/Views/Shared/_LayoutCommon.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRDb21tb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Admin/source/repos/Freelancer_2023/WebShoppingMVC/Views/Shared/_LayoutLogin.cshtml]

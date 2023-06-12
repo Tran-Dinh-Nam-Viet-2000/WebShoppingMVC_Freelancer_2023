@@ -6,8 +6,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-
-    <title>Hexashop Ecommerce HTML CSS Template</title>
+    <link rel="icon" href="/assets/images/logo-seco.jpg" type="image/png">
+    <title>SECO SHOP</title>
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/font-awesome.css">
@@ -30,22 +30,23 @@
     </div>
     <!-- ***** Preloader End ***** -->
     <!-- ***** Header Area Start ***** -->
-    <header class="header-area header-sticky">
+    <header style="height:96px" class="header-area header-sticky">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a asp-controller="Home" asp-action="Index" class="logo">
-                            <img src="/assets/images/logo.png">
+                            <img style="width:108px; height:80px" src="/assets/images/logo-seco.jpg">
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
                             <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-                            <li class="scroll-to-section"><a href="#men">Shirt</a></li>
-                            <li class="scroll-to-section"><a href="#women">Pants</a></li>
-                            <li class="scroll-to-section"><a href="#kids">Accessory</a></li>
+                            <li class="scroll-to-section"><a asp-controller="Category" asp-action="Shirt">Shirt</a></li>
+                            <li class="scroll-to-section"><a asp-controller="Category" asp-action="Pants">Pants</a></li>
+                            <li class="scroll-to-section"><a asp-controller="Category" asp-action="Shoes">Shoes</a></li>
+                            <li class="scroll-to-section"><a asp-controller="Category" asp-action="Accessory">Accessory</a></li>
                             <li class="scroll-to-section"><a href="#kids">About Us</a></li>
                             <li class="submenu">
                                 <a href="javascript:;">Profile</a>
@@ -75,7 +76,7 @@
                     <div class="left-content">
                         <div class="thumb">
                             <div class="inner-content">
-                                <h4>We Are Hexashop</h4>
+                                <h4>We Are SECO</h4>
                                 @*<span>Awesome, clean &amp; creative HTML5 Template</span>*@
                                 <div class="main-border-button">
                                     <li><a asp-controller="Home" asp-action="Details">Shop</a></li>
@@ -97,10 +98,10 @@
                                         </div>
                                         <div class="hover-content">
                                             <div class="inner">
-                                                <h4>Women</h4>
+                                                <h4>Shirt</h4>
                                                 <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.</p>
                                                 <div class="main-border-button">
-                                                    <a href="#">Discover More</a>
+                                                    <a asp-controller="Category" asp-action="Shirt">Discover More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -117,10 +118,10 @@
                                         </div>
                                         <div class="hover-content">
                                             <div class="inner">
-                                                <h4>Men</h4>
+                                                <h4>Pants</h4>
                                                 <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.</p>
                                                 <div class="main-border-button">
-                                                    <a href="#">Discover More</a>
+                                                    <a asp-controller="Category" asp-action="Pants">Discover More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -138,10 +139,10 @@
                                         </div>
                                         <div class="hover-content">
                                             <div class="inner">
-                                                <h4>Accessories</h4>
+                                                <h4>Shoes</h4>
                                                 <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.</p>
                                                 <div class="main-border-button">
-                                                    <a href="#">Discover More</a>
+                                                    <a asp-controller="Category" asp-action="Shoes">Discover More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -158,10 +159,10 @@
                                         </div>
                                         <div class="hover-content">
                                             <div class="inner">
-                                                <h4>Kids</h4>
+                                                <h4>Accessory</h4>
                                                 <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.</p>
                                                 <div class="main-border-button">
-                                                    <a href="#">Discover More</a>
+                                                    <a asp-controller="Category" asp-action="Accessory">Discover More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -189,12 +190,10 @@
             <div class="row">
                 <div class="col-lg-3">
                     <div class="first-item">
-                        <div class="logo">
-                            <img src="assets/images/white-logo.png" alt="hexashop ecommerce templatemo">
-                        </div>
+                        <h4>Contact</h4>
                         <ul>
                             <li><a href="#">16501 Collins Ave, Sunny Isles Beach, FL 33160, United States</a></li>
-                            <li><a href="#">hexashop@company.com</a></li>
+                            <li><a href="#">seco@company.com</a></li>
                             <li><a href="#">010-020-0340</a></li>
                         </ul>
                     </div>
@@ -202,16 +201,18 @@
                 <div class="col-lg-3">
                     <h4>Shopping &amp; Categories</h4>
                     <ul>
-                        <li><a href="#">Shirt's Shopping</a></li>
-                        <li><a href="#">Pants's Shopping</a></li>
-                        <li><a href="#">Shoes's Shopping</a></li>
-                        <li><a href="#">Accessory's Shopping</a></li>
+                        <li class="scroll-to-section"><a asp-controller="Category" asp-action="Shirt">Shirt's Shopping</a></li>
+                        <li class="scroll-to-section"><a asp-controller="Category" asp-action="Pants">Pants's Shopping</a></li>
+                        <li class="scroll-to-section"><a asp-controller="Category" asp-action="Shoes">Shoes's Shopping</a></li>
+                        <li class="scroll-to-section"><a asp-controller="Category" asp-action="Accessory">Accessory's Shopping</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3">
                     <h4>Useful Links</h4>
                     <ul>
-                        <li><a href="#">Homepage</a></li>
+                        <li>
+                            <a asp-controller="Home" asp-action="Index">Home page</a>
+                        </li>
                         <li><a href="#">About Us</a></li>
                     </ul>
                 </div>
@@ -227,11 +228,11 @@
                 <div class="col-lg-12">
                     <div class="under-footer">
                         <p>
-                            Copyright © 2022 HexaShop Co., Ltd. All Rights Reserved.
+                            Copyright © 2022 SECO Co., Ltd. All Rights Reserved.
 
-                            <br>Design: <a href="https://templatemo.com" target="_parent" title="free css templates">TemplateMo</a>
+                            <br>Design: <a href="#" target="_parent" title="Team SECO">Team SECO</a>
 
-                            <br>Distributed By: <a href="https://themewagon.com" target="_blank" title="free & premium responsive templates">ThemeWagon</a>
+                            <br>Distributed By: <a href="#" target="_blank" title="SECO">SECO</a>
                         </p>
                         <ul>
                             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -245,26 +246,26 @@
         </div>
     </footer>
     <!-- jQuery -->
-    <script src="assets/js/jquery-2.1.0.min.js"></script>
+    <script src="/assets/js/jquery-2.1.0.min.js"></script>
 
     <!-- Bootstrap -->
-    <script src="assets/js/popper.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/popper.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
 
     <!-- Plugins -->
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/accordions.js"></script>
-    <script src="assets/js/datepicker.js"></script>
-    <script src="assets/js/scrollreveal.min.js"></script>
-    <script src="assets/js/waypoints.min.js"></script>
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <script src="assets/js/imgfix.min.js"></script>
-    <script src="assets/js/slick.js"></script>
-    <script src="assets/js/lightbox.js"></script>
-    <script src="assets/js/isotope.js"></script>
+    <script src="/assets/js/owl-carousel.js"></script>
+    <script src="/assets/js/accordions.js"></script>
+    <script src="/assets/js/datepicker.js"></script>
+    <script src="/assets/js/scrollreveal.min.js"></script>
+    <script src="/assets/js/waypoints.min.js"></script>
+    <script src="/assets/js/jquery.counterup.min.js"></script>
+    <script src="/assets/js/imgfix.min.js"></script>
+    <script src="/assets/js/slick.js"></script>
+    <script src="/assets/js/lightbox.js"></script>
+    <script src="/assets/js/isotope.js"></script>
 
     <!-- Global Init -->
-    <script src="assets/js/custom.js"></script>
+    <script src="/assets/js/custom.js"></script>
 
     <script>
 

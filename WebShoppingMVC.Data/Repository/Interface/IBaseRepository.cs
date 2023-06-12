@@ -10,12 +10,13 @@ namespace WebShoppingMVC.Data.Repository.Interface
     public interface IBaseRepository<T> where T : class  
     {
         Task<IEnumerable<T>> GetAllAsync(Expression<Func<T, bool>> expression = null);
-        Task Create(T entity);
+        Task<T> Create(T entity);
         Task Update(T entity);
         void Delete(int id);
 
         //Hàm lưu vào db
         void SaveChanges();
+        Task<T> GetById(int id);
         //Task<T> GetSingleByConditionAsync(Expression<Func<T, bool>> expression = null);
     }
 }

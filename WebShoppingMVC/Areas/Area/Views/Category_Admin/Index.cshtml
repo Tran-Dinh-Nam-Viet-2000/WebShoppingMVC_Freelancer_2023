@@ -1,0 +1,50 @@
+﻿@model IEnumerable<WebShoppingMVC.Domain.Entity.Category>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Area/Views/Shared/_Admin_Layout.cshtml";
+}
+
+<h1>Management category</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create"> <i class="fa-solid fa-plus"></i> Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Code)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                <span>Status</span>
+            </th>
+            <th>
+                <span>Action</span>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Code)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                <span style="color:limegreen">Active</span>
+            </td>
+            <td>
+                    <a class="btn btn-warning" asp-action="Update" asp-route-id="@item.Id"> <i class="fa-solid fa-pen-to-square"></i></a>
+                    <a class="btn btn-success" asp-action="Details" asp-route-id="@item.Id"> <i class="fa-solid fa-eye"></i></a>
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id"> <i class="fa-solid fa-trash"></i></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

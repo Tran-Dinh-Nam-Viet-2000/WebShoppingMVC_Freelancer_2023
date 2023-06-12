@@ -19,6 +19,7 @@ namespace WebShoppingMVC.Services
         {
             _baseRepository = baseRepository;
         }
+
         public async Task<Category> Create(CategoryDto categoryDto)
         {
             var create = new Category()
@@ -34,12 +35,12 @@ namespace WebShoppingMVC.Services
 
         public void Delete(int id)
         {
-            throw new NotImplementedException();
+            _baseRepository.Delete(id);
         }
 
-        public Task<CategoryDto> Get(int id)
+        public async Task<Category> Get(int id)
         {
-            throw new NotImplementedException();
+            return await _baseRepository.GetById(id);
         }
 
         public async Task<IEnumerable<Category>> GetAll()
@@ -47,9 +48,15 @@ namespace WebShoppingMVC.Services
             return await _baseRepository.GetAllAsync();
         }
 
-        public Task<Category> Update(int id, CategoryDto categoryDto)
+        public async Task<Category> Update(CategoryDto categoryDto)
         {
-            throw new NotImplementedException();
+            var query = await _baseRepository.GetById(categoryDto.Id);
+            query.Code = categoryDto.Code;
+            query.Name = categoryDto.Name;
+            query.UpdatedDate = DateTime.Now;
+            await _baseRepository.Update(query);
+
+            return query;
         }
     }
 }

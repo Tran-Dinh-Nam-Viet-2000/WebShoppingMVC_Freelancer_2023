@@ -18,10 +18,11 @@ namespace WebShoppingMVC.Data.Repository
         {
             _dbContext = dbContext;
         }
-        public async Task Create(T entity)
+        public async Task<T> Create(T entity)
         {
-            await _dbContext.AddAsync(entity);
-            SaveChanges();
+            await _dbContext.Set<T>().AddAsync(entity);
+            await _dbContext.SaveChangesAsync();
+            return entity;
         }
 
         public void Delete(int id)
@@ -42,7 +43,12 @@ namespace WebShoppingMVC.Data.Repository
             }
             return await _dbContext.Set<T>().Where(expression).ToListAsync();
         }
-        
+
+        public async Task<T> GetById(int id)
+        {
+            return await _dbContext.Set<T>().FindAsync(id);
+        }
+
         public async Task Update(T entity)
         {
             await _dbContext.SaveChangesAsync();
