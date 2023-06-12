@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "15ePOzGdOyjSR1PC5rstn41mZm5J4HPkvsSdxYqspEA=",
+  "Hash": "mzTfVwK7oRccYH9wO0rzvTyZyadkCVrzdfi3vX2Bgrg=",
   "Source": "WebShoppingMVC",
   "BasePath": "_content/WebShoppingMVC",
   "Mode": "Default",
@@ -32147,6 +32147,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\close.png"
     },
     {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\Freelancer_2023\\WebShoppingMVC\\wwwroot\\assets\\images\\details.jpg",
+      "SourceId": "WebShoppingMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\Freelancer_2023\\WebShoppingMVC\\wwwroot\\",
+      "BasePath": "_content/WebShoppingMVC",
+      "RelativePath": "assets/images/details.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\details.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Admin\\source\\repos\\Freelancer_2023\\WebShoppingMVC\\wwwroot\\assets\\images\\explore-image-01.jpg",
       "SourceId": "WebShoppingMVC",
       "SourceType": "Discovered",
@@ -33097,6 +33114,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\ImagesProduct\\dellvostro2503.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\Freelancer_2023\\WebShoppingMVC\\wwwroot\\ImagesProduct\\instagram-03.jpg",
+      "SourceId": "WebShoppingMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\Freelancer_2023\\WebShoppingMVC\\wwwroot\\",
+      "BasePath": "_content/WebShoppingMVC",
+      "RelativePath": "ImagesProduct/instagram-03.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ImagesProduct\\instagram-03.jpg"
     },
     {
       "Identity": "C:\\Users\\Admin\\source\\repos\\Freelancer_2023\\WebShoppingMVC\\wwwroot\\ImagesProduct\\iphone11.jpg",

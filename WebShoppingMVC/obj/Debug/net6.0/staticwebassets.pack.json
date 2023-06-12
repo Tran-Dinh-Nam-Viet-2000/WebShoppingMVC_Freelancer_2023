@@ -7437,6 +7437,10 @@
       "PackagePath": "staticwebassets\\ImagesProduct\\dellvostro2503.jpg"
     },
     {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Freelancer_2023\\WebShoppingMVC\\wwwroot\\ImagesProduct\\instagram-03.jpg",
+      "PackagePath": "staticwebassets\\ImagesProduct\\instagram-03.jpg"
+    },
+    {
       "Id": "C:\\Users\\Admin\\source\\repos\\Freelancer_2023\\WebShoppingMVC\\wwwroot\\ImagesProduct\\iphone11.jpg",
       "PackagePath": "staticwebassets\\ImagesProduct\\iphone11.jpg"
     },
@@ -7591,6 +7595,10 @@
     {
       "Id": "C:\\Users\\Admin\\source\\repos\\Freelancer_2023\\WebShoppingMVC\\wwwroot\\assets\\images\\close.png",
       "PackagePath": "staticwebassets\\assets\\images\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Freelancer_2023\\WebShoppingMVC\\wwwroot\\assets\\images\\details.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\details.jpg"
     },
     {
       "Id": "C:\\Users\\Admin\\source\\repos\\Freelancer_2023\\WebShoppingMVC\\wwwroot\\assets\\images\\explore-image-01.jpg",
