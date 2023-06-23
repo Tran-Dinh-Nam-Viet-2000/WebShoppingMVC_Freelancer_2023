@@ -24,5 +24,10 @@ namespace WebShoppingMVC.Controllers
             allList.ListProduct = _dbContext.Products.Where(n => n.CategoryId == 23).ToList();
 			return View(allList);
 		}
+
+        public IActionResult About()
+        {
+            return View();
+        }
 	}
 }
