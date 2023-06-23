@@ -13,6 +13,7 @@ namespace WebShoppingMVC.Controllers
     {
         private readonly ApplicationDbContext _dbContext;
         private readonly IProductService _productService;
+        AllList allList = new AllList();
 
         public ProductController(ApplicationDbContext dbContext, IProductService productService)
         {
@@ -20,9 +21,24 @@ namespace WebShoppingMVC.Controllers
             _productService = productService;
         }
 
+        public async Task<IActionResult> AllProducts()
+        {
+            allList.ListProductShirt = await _dbContext.Products.Where(n => n.Category.Name == "Shirt").ToListAsync();
+            allList.ListProductShoes = await _dbContext.Products.Where(n => n.Category.Name == "Shoes").ToListAsync();
+            allList.ListProductPants = await _dbContext.Products.Where(n => n.Category.Name == "Pants").ToListAsync();
+            allList.ListProductAccessory = await _dbContext.Products.Where(n => n.Category.Name == "Accessory").ToListAsync();
+
+            return View(allList);
+        }
+
         public async Task<IActionResult> Details(int id)
         {
             return View(await _productService.Get(id));
+        }
+
+        public IActionResult AddToCart()
+        {
+            return View();
         }
     }
 }

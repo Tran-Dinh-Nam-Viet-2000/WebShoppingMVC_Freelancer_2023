@@ -25,13 +25,13 @@ namespace WebShoppingMVC.Controllers
 
         public async Task<IActionResult> Pants()
         {
-            allList.ListProduct = await _dbContext.Products.Where(n => n.CategoryId == 23).ToListAsync();
+            allList.ListProduct = await _dbContext.Products.Where(n => n.CategoryId == 25).ToListAsync();
             return View(allList);
         }
 
         public async Task<IActionResult> Shoes()
         {
-            allList.ListProduct = await _dbContext.Products.Where(n => n.CategoryId == 25).ToListAsync();
+            allList.ListProduct = await _dbContext.Products.Where(n => n.CategoryId == 23).ToListAsync();
             return View(allList);
         }
 

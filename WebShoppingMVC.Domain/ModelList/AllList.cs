@@ -11,5 +11,8 @@ namespace WebShoppingMVC.Domain.ModelList
     {
         public List<Product> ListProduct { get; set; }
         public List<Product> ListProductShirt { get; set; }
+        public List<Product> ListProductShoes { get; set; }
+        public List<Product> ListProductPants { get; set; }
+        public List<Product> ListProductAccessory { get; set; }
     }
 }

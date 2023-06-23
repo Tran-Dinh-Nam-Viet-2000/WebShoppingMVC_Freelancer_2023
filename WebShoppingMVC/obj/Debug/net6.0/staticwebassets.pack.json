@@ -7429,6 +7429,10 @@
       "PackagePath": "staticwebassets\\ImagesProduct\\23pg56.jpg"
     },
     {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Freelancer_2023\\WebShoppingMVC\\wwwroot\\ImagesProduct\\banner-shop.jpg",
+      "PackagePath": "staticwebassets\\ImagesProduct\\banner-shop.jpg"
+    },
+    {
       "Id": "C:\\Users\\Admin\\source\\repos\\Freelancer_2023\\WebShoppingMVC\\wwwroot\\ImagesProduct\\dellinspiron3501.jpg",
       "PackagePath": "staticwebassets\\ImagesProduct\\dellinspiron3501.jpg"
     },
@@ -7437,8 +7441,32 @@
       "PackagePath": "staticwebassets\\ImagesProduct\\dellvostro2503.jpg"
     },
     {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Freelancer_2023\\WebShoppingMVC\\wwwroot\\ImagesProduct\\explore-image-02.jpg",
+      "PackagePath": "staticwebassets\\ImagesProduct\\explore-image-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Freelancer_2023\\WebShoppingMVC\\wwwroot\\ImagesProduct\\hinh1.jpeg",
+      "PackagePath": "staticwebassets\\ImagesProduct\\hinh1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Freelancer_2023\\WebShoppingMVC\\wwwroot\\ImagesProduct\\instagram-01.jpg",
+      "PackagePath": "staticwebassets\\ImagesProduct\\instagram-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Freelancer_2023\\WebShoppingMVC\\wwwroot\\ImagesProduct\\instagram-02.jpg",
+      "PackagePath": "staticwebassets\\ImagesProduct\\instagram-02.jpg"
+    },
+    {
       "Id": "C:\\Users\\Admin\\source\\repos\\Freelancer_2023\\WebShoppingMVC\\wwwroot\\ImagesProduct\\instagram-03.jpg",
       "PackagePath": "staticwebassets\\ImagesProduct\\instagram-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Freelancer_2023\\WebShoppingMVC\\wwwroot\\ImagesProduct\\instagram-04.jpg",
+      "PackagePath": "staticwebassets\\ImagesProduct\\instagram-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Freelancer_2023\\WebShoppingMVC\\wwwroot\\ImagesProduct\\instagram-05.jpg",
+      "PackagePath": "staticwebassets\\ImagesProduct\\instagram-05.jpg"
     },
     {
       "Id": "C:\\Users\\Admin\\source\\repos\\Freelancer_2023\\WebShoppingMVC\\wwwroot\\ImagesProduct\\iphone11.jpg",
@@ -7453,6 +7481,10 @@
       "PackagePath": "staticwebassets\\ImagesProduct\\iphone6.jpg"
     },
     {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Freelancer_2023\\WebShoppingMVC\\wwwroot\\ImagesProduct\\kid-02.jpg",
+      "PackagePath": "staticwebassets\\ImagesProduct\\kid-02.jpg"
+    },
+    {
       "Id": "C:\\Users\\Admin\\source\\repos\\Freelancer_2023\\WebShoppingMVC\\wwwroot\\ImagesProduct\\lg25pl11.jpg",
       "PackagePath": "staticwebassets\\ImagesProduct\\lg25pl11.jpg"
     },
@@ -7463,6 +7495,10 @@
     {
       "Id": "C:\\Users\\Admin\\source\\repos\\Freelancer_2023\\WebShoppingMVC\\wwwroot\\ImagesProduct\\sa.jpg",
       "PackagePath": "staticwebassets\\ImagesProduct\\sa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Freelancer_2023\\WebShoppingMVC\\wwwroot\\ImagesProduct\\service-01.jpg",
+      "PackagePath": "staticwebassets\\ImagesProduct\\service-01.jpg"
     },
     {
       "Id": "C:\\Users\\Admin\\source\\repos\\Freelancer_2023\\WebShoppingMVC\\wwwroot\\assets\\css\\bootstrap.min.css",

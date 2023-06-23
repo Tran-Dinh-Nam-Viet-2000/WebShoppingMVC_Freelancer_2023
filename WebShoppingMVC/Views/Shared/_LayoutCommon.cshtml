@@ -14,10 +14,8 @@
     <link rel="stylesheet" href="/assets/css/templatemo-hexashop.css">
     <link rel="stylesheet" href="/assets/css/owl-carousel.css">
     <link rel="stylesheet" href="/assets/css/lightbox.css">
-
-    https://templatemo.com/tm-571-hexashop
-
-
+    <link href="/lib/font-awesome/css/all.min.css" rel="stylesheet" />
+    <link href="/lib/font-awesome/css/all.css" rel="stylesheet" />
 </head>
 <body>
     <!-- ***** Preloader Start ***** -->
@@ -37,7 +35,7 @@
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a asp-controller="Home" asp-action="Index" class="logo">
-                            <img style="width:108px; height:80px" src="/assets/images/logo-seco.jpg">
+                            <img style="width:108px; height:80px;margin-bottom: 20px;" src="/assets/images/logo-seco.jpg">
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
@@ -48,6 +46,7 @@
                             <li class="scroll-to-section"><a asp-controller="Category" asp-action="Shoes">Shoes</a></li>
                             <li class="scroll-to-section"><a asp-controller="Category" asp-action="Accessory">Accessory</a></li>
                             <li class="scroll-to-section"><a href="#kids">About Us</a></li>
+                            <li class="scroll-to-section"><a asp-controller="Product" asp-action="AddToCart">Cart</a></li>
                             <li class="submenu">
                                 <a href="javascript:;">Profile</a>
                                 <ul>

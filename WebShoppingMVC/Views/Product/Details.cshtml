@@ -18,15 +18,16 @@
         padding-bottom: 0px;
         padding: 13px;
     }
+
     </style>
 
     <!-- ***** Main Banner Area Start ***** -->
-    <div style="width: 1711px; margin-left: -298px;" class="page-heading" id="top">
+    <div style="width: 1470px; margin-left: -180px;" class="page-heading" id="top">
+    @*<div style="width: 1711px; margin-left: -298px;" class="page-heading" id="top">*@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="inner-content">
-                        
                         <h2>Single Product Page</h2>
                         <span>SECO Shop</span>
                     </div>
@@ -41,7 +42,7 @@
         <div class="row">
             <div class="col-lg-8">
                 <div class="left-images">
-                    <img style="margin-top: -40px;" src="@Model.Image" alt="">
+                    <img style="margin-top: -40px; width: 400px; height: 400px" src="@Model.Image" alt="">
                 </div>
             </div>
             <div class="col-lg-4">
@@ -55,7 +56,7 @@
                         <li><i class="fa fa-star"></i></li>
                         <li><i class="fa fa-star"></i></li>
                     </ul>
-                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod kon tempor incididunt ut labore.</span>
+                    <span>@Model.Description</span>
                     <div class="quantity-content">
                         <div class="left-content">
                             <h6>No. of Orders</h6>
@@ -68,8 +69,8 @@
                     </div>
                     <div class="total">
                         <div class="buy-addtocart">
-                            <div style="margin-left: 82px;" class="buy main-border-button"><a href="#">Buy</a></div>
-                            <div class="main-border-button"><a style="width: 109px;padding: 12px; text-align: center;" href="#">Add to cart</a></div>
+                            <div style="margin-left: 82px;" class="buy main-border-button"><a href="#">Buy Now</a></div>
+                            <div class="main-border-button"><a style="width: 109px;padding: 12px; text-align: center;" href="#">Add to Cart</a></div>
                         </div>
                     </div>
                 </div>
